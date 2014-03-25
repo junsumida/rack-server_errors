@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/junsumida/rack-server_errors.svg?branch=master)](https://travis-ci.org/junsumida/rack-server_errors)
+
 # Rack::ServerErrors
 
 Rack::ServerErrors is a simple Rack middleware which catches exceptions from your Rack application and returns 500 error response in json.
