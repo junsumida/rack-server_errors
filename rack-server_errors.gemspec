@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "rack-server_errors"
-  spec.version       = 0.0.1 
+  spec.version       = '0.0.1'
   spec.authors       = ["junsumida"]
   spec.email         = ["jun.sumida@mixi.co.jp"]
   spec.summary       = %q{Rack middleware to catch exceptions and returns 500 error.}
