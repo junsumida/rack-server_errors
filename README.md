@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'rack-server_errors'
+    gem 'rack-server_errors', :git => 'https://github.com/junsumida/rack-server_errors.git'
 
 And then execute:
 
