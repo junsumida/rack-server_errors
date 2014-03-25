@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/junsumida/rack-server_errors.svg?branch=master)](https://travis-ci.org/junsumida/rack-server_errors)
 [![Code Climate](https://codeclimate.com/github/junsumida/rack-server_errors.png)](https://codeclimate.com/github/junsumida/rack-server_errors)
+[![Coverage Status](https://coveralls.io/repos/junsumida/rack-server_errors/badge.png)](https://coveralls.io/r/junsumida/rack-server_errors)
 
 # Rack::ServerErrors
 
