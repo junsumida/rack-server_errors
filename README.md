@@ -1,6 +1,6 @@
 # Rack::ServerErrors
 
-TODO: Write a gem description
+Rack::ServerErrors is a simple Rack middleware which catches exceptions from your Rack application and returns 500 error response in json.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just simply add `use Rack::ServerErrors` to your `config.ru` file. For example, 
+
+```ruby
+use Rack::ServerErrors
+run YourRackApp
+```
 
 ## Contributing
 
