@@ -19,8 +19,8 @@ describe Rack::ServerErrors do
     it 'returns an error message and status 500' do
       get '/error'
 
-      last_response.status.should eq 500
-      last_response.body.should eq expected
+      expect(last_response.status).to eq 500
+      expect(last_response.body).to eq expected
     end
   end
 
